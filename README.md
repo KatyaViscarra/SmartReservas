@@ -80,16 +80,16 @@ Guarda los comentarios y calificaciones de los clientes sobre los restaurantes.
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/SpecialSKG/RestaurantesReservas.git
+   git clone https://github.com/KatyaViscarra/SmartReservas.git
    
-   cd restaurantes-reservas
+   cd SmartReservas
    
 2. Instala las dependencias del frontend:
    ```bash
    npm install
    
 3.Configura la base de datos:
-  Importa el archivo SQL proporcionado en tu servidor MySQL.
+  Importa el archivo SQL "RestaurantesReservas.sql" proporcionado en tu servidor MySQL.
   Asegúrate de configurar las credenciales de la base de datos en el archivo api.php en el backend.
   
 4. Inicia el servidor de desarrollo:
