@@ -27,6 +27,8 @@ import CategoriasPanel from '../views/Admin/CategoriasPanel';
 import RestaurantesPanel from '../views/Admin/RestaurantesPanel';
 import UsuariosPanel from '../views/Admin/UsuariosPanel';
 
+import WalletDashboard from '../views/WalletDashboard';
+
 const Router = () => {
     return (
         <div>
@@ -50,6 +52,7 @@ const Router = () => {
                         <Route path="/admin/categorias" element={<ProtectedRoute element={CategoriasPanel} roles={["admin"]} />} />
                         <Route path="/admin/restaurantes" element={<ProtectedRoute element={RestaurantesPanel} roles={["admin"]} />} />
                         <Route path="/admin/usuarios" element={<ProtectedRoute element={UsuariosPanel} roles={["admin"]} />} />
+                        <Route path="/wallet" element={<ProtectedRoute element={WalletDashboard} roles={["admin"]} />} />
                     </Routes>
                 </main>
                 <Footer />
