@@ -52,7 +52,7 @@ const Router = () => {
                         <Route path="/admin/categorias" element={<ProtectedRoute element={CategoriasPanel} roles={["admin"]} />} />
                         <Route path="/admin/restaurantes" element={<ProtectedRoute element={RestaurantesPanel} roles={["admin"]} />} />
                         <Route path="/admin/usuarios" element={<ProtectedRoute element={UsuariosPanel} roles={["admin"]} />} />
-                        <Route path="/wallet" element={<ProtectedRoute element={WalletDashboard} roles={["admin"]} />} />
+                        <Route path="/wallet" element={<WalletDashboard />} />
                     </Routes>
                 </main>
                 <Footer />
